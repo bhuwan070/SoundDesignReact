@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
+// import "../Info"
 
 const Navbar = () => {
   return (
@@ -10,19 +11,19 @@ const Navbar = () => {
 
       <ul>
         <li>
-          <a href="#">Course Details</a>
+          <a href="#topics">Course Details</a>
         </li>
 
         <li>
-          <a href="#">About</a>
+          <a href="#info">About</a>
         </li>
 
         <li>
-          <a href="#">Blog</a>
+          <a href="#blog">Blog</a>
         </li>
 
         <li>
-          <a href="#">Testimonials</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
 
       </ul>
